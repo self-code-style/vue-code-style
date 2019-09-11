@@ -1,3 +1,20 @@
+# 注意事项
+
+```
+在使用时需要的前提是项目中安装了以下的node_modules，在开发时才能生效。
+"@vue/cli-plugin-babel": "^3.10.0",
+"@vue/cli-plugin-eslint": "^3.10.0",
+"@vue/cli-service": "^3.10.0",
+"@vue/eslint-config-prettier": "^5.0.0",
+"babel-eslint": "^10.0.1",
+"eslint": "^5.16.0",
+"eslint-plugin-prettier": "^3.1.0",
+"eslint-plugin-vue": "^5.0.0",
+"prettier": "^1.18.2"
+
+编辑器vscode，Extensions: eslint、prettier、vetur
+```
+
 # setting.json 文件的配置
 
 ```
@@ -44,21 +61,4 @@
   //结尾不加分号
   "semi": false
 }
-```
-
-# 注意事项
-
-```
-在使用时需要的前提是项目中安装了以下的node_modules，在开发时才能生效。
-"@vue/cli-plugin-babel": "^3.10.0",
-"@vue/cli-plugin-eslint": "^3.10.0",
-"@vue/cli-service": "^3.10.0",
-"@vue/eslint-config-prettier": "^5.0.0",
-"babel-eslint": "^10.0.1",
-"eslint": "^5.16.0",
-"eslint-plugin-prettier": "^3.1.0",
-"eslint-plugin-vue": "^5.0.0",
-"prettier": "^1.18.2"
-
-编辑器vscode，Extensions: eslint、prettier、vetur
 ```
